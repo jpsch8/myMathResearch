@@ -6,7 +6,7 @@ import cmath
 
 # real part (always 1/2)
 x = 0.5
-# compley part
+# complex part
 y = 0
 z = complex(x,y)
 
@@ -17,7 +17,7 @@ while 1==1:
         sum = sum+(1/(i**z))
 
     print(sum)
-    #increments complext part
+    # increments complext part
     y = y+0.000001
     sleep(1)
 
