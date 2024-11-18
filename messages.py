@@ -1,6 +1,6 @@
 # find zeros of zeta function
-import time
-from time import sleep
+
+
 import cmath
 #establishes complex variable (a+bi)
 
@@ -16,10 +16,12 @@ while 1==1:
     for i in range(1,999999):
         sum = sum+(1/(i**z))
 
-    print(sum)
+    
     # increments complext part
     y = y+0.000001
-    sleep(1)
+    #checks if z is a zero (or really close to 0)
+    if abs(sum)<0.000001:
+        print(z)
 
 
 
