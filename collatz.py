@@ -11,8 +11,8 @@ def collatz(n):
             n = n / 2
             print(n)
 
-        checks if n i odd
-        elif n % 2 == 1:
+        #checks if n i odd
+        else
             n = n * 3 + 1
             print(n)
     return True
