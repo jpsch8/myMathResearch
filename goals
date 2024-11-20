@@ -1,2 +1,4 @@
 1. fix zeta function file by adding eta function approximations
-2. add python file that can find area of random step functions
+2. add python file that can find area of random step functions (completed)
+3. document the random area and fix the print statements to provide more information
+
