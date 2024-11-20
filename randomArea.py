@@ -16,7 +16,7 @@ while True:
         area = area + (y-(step/2))
         print(x,y,area)
     elif y<0:
-        area = area-(y-(step/2))
+        area = area+(y-(step/2))
         print(x,y,area)
     else:
         area = area-(step/2)
