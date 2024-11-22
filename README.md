@@ -5,3 +5,4 @@ maybe something cool will come of this
 current ideas:
 Riemann-Zeta Function (finding zeroes)
 Collatz conjecture (testing a bunch of numbers)
+finding the area of a random step function
