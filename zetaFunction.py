@@ -5,15 +5,16 @@ import cmath
 #establishes complex variable (a+bi)
 
 # real part (always 1/2)
-x = 0.5
+
 # complex part
 y = 0
-z = complex(x,y)
+z = complex(0.5,y)
 
 sum  = 0
-while 1==1:
+while True:
 
     for i in range(1,999999):
+        # this is actually the Dirichlet-eta function
         sum = sum + ((-1)**(i-1))/(i**z)
 
     
