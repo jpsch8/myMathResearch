@@ -14,7 +14,7 @@ sum  = 0
 while 1==1:
 
     for i in range(1,999999):
-        sum = sum+(1/(i**z))
+        sum = sum + ((-1)**(i-1))/(i**z)
 
     
     # increments complext part
