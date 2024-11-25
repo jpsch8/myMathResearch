@@ -1,5 +1,5 @@
-1. fix zeta function file by adding dirichlet-eta function approximations
-2. add python file that can find area of random step functions (completed)
+1. fix zeta function file by adding dirichlet-eta function approximations (complete)
+2. add python file that can find area of random step functions (complete)
 3. document the random area and fix the print statements to provide more information
 4. add dice game (complete)
 5. learn matplotlib
