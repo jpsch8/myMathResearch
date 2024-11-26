@@ -4,11 +4,11 @@
 import cmath
 #establishes complex variable (a+bi)
 
-# real part (always 1/2)
+
 
 # complex part
 y = 0
-z = complex(0.5,y)
+z = complex(0.5,y) # real part (always 1/2) (or so we think)
 
 sum  = 0
 while True:
@@ -18,7 +18,7 @@ while True:
         sum = sum + ((-1)**(i-1))/(i**z)
 
     
-    # increments complext part
+    # increments complex part
     y = y+0.000001
     #checks if z is a zero (or really close to 0)
     if abs(sum)<0.000001:
