@@ -12,3 +12,4 @@ something with markov chains
 testing simple trading algorithms against a random step variable
 testing simpsons rule
 finding other ways of numeric integration
+I want to research more about SDE but many prerequisites, have to grind
