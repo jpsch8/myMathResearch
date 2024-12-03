@@ -5,8 +5,10 @@
 5. learn matplotlib
 6. add basic trading algorithm (complete)
 7. document the simple dice game (complete)
-8. document the basic trading algorithm
+8. document the basic trading algorithm (complete)
 9. add numeric integration by simpson's 1/3 rule (complete)
 10. implement exponential betting strategy
 11. demonstrate Euler's identity using cmath library
 12. do something with regression models
+13. fix bugs in exponential betting strategy
+14. document exponential betting strategy
