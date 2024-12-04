@@ -5,11 +5,11 @@ import math
 from math import *
 import random
 money = 100
-
+k = 0
 while money>0:
     coin = random.randint(0, 1)
 
-    k = 0
+
     if coin == 1:
         money = money +(2**k)
         print(money)
@@ -20,3 +20,4 @@ while money>0:
         k = k+1
         print(money)
         sleep(1)
+print("you lost all your money")
