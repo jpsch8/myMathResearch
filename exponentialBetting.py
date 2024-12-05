@@ -1,23 +1,24 @@
 # Thank you proffesor Swihart
+# libraries that are used
 import time
 from time import sleep
 import math
 from math import *
 import random
-money = 100
+money = 100 # sets the inital capital (you need alot of this for it to work in real life)
 k = 0
-while money>0:
-    coin = random.randint(0, 1)
+while money>0: # basically this is a valid strategy while you still have some amount of money
+    coin = random.randint(0, 1) # makes a coin, 1 is heads, 0 is tails
 
 
-    if coin == 1:
-        money = money +(2**k)
+    if coin == 1: # you win if the coin lands on heads (or in this case 1)
+        money = money +(2**k) # adds to money 
         print(money)
-        k = 0
+        k = 0 # restarts the exponent to 0 
         sleep(1)
-    else:
-        money = money - (2**k)
-        k = k+1
+    else: # you lose if the coin lands on tails (or in this case 0)
+        money = money - (2**k) # subtracts from money
+        k = k+1 # increases the exponent by 1 (after an infinite amount of time you are guaranteed to net gain one dollar)
         print(money)
         sleep(1)
-print("you lost all your money")
+print("you lost all your money") # this happens if your capital goes to 0 (which is why you need to have alot to start with)
