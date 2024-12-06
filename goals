@@ -14,3 +14,4 @@
 14. document exponential betting strategy (complete)
 15. represent collatz conjecture as markov chain
 16. add new bounds for exponential betting strategy 
+17. make an algorithm that can test whether or not complex numbers are in a fractal
