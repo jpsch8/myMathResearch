@@ -12,7 +12,9 @@
 12. do something with regression models
 13. fix bugs in exponential betting strategy (complete)
 14. document exponential betting strategy (complete)
-15. represent collatz conjecture as markov chain
+15. represent collatz conjecture as markov chain (complete)
 16. add new bounds for exponential betting strategy (complete)
 17. make an algorithm that can test whether or not complex numbers are in a fractal
 18. fix bugs in exponential betting (complete)
+19. document the Collatz Markov system
+20. add numeric integration by simpson's 3/8 rule
