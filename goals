@@ -18,3 +18,4 @@
 18. fix bugs in exponential betting (complete)
 19. document the Collatz Markov system
 20. add numeric integration by simpson's 3/8 rule
+21. print the transformation matrix for the collatz markov chain
