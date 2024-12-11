@@ -16,6 +16,6 @@
 16. add new bounds for exponential betting strategy (complete)
 17. make an algorithm that can test whether or not complex numbers are in a fractal
 18. fix bugs in exponential betting (complete)
-19. document the Collatz Markov system
+19. document the Collatz Markov system (complete)
 20. add numeric integration by simpson's 3/8 rule
 21. print the transformation matrix for the collatz markov chain
