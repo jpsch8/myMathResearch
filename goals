@@ -19,3 +19,4 @@
 19. document the Collatz Markov system (complete)
 20. add numeric integration by simpson's 3/8 rule
 21. print the transformation matrix for the collatz markov chain
+22. write a script for finding determinants, cross products and various other matrix operations
