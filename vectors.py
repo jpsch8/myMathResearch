@@ -3,8 +3,7 @@ row1 = int(input("how many in row 1"))
 col1 = int(input("how many in column 1"))
 row2 = int(input("how many in row 2"))
 col2 = int(input("how many in column 1"))
-A=[]
-B=[]
+
 if row1 == row2 and col1 == col2:
     ASub = []
     print("Matrix A")
