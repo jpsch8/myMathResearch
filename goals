@@ -24,3 +24,4 @@
 24. test to see if dot product finder actually works
 25. document how dot products are found
 26. remove redundant variables in vector calculations (complete)
+27. raise e to the power of a matrix
