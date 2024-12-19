@@ -26,3 +26,5 @@
 26. remove redundant variables in vector calculations (complete)
 27. raise e to the power of a matrix
 28. document how cross products are found
+29. fix the input statements in vectors.py to allow floats
+30. expand vectors.py to complex numbers
