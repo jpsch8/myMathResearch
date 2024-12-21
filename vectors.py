@@ -39,11 +39,12 @@ if row1 == row2 and col1 == col2:
 else:
     print("dot product is not computable, not same dimensions")
 print(dot)
+# this section is for calculating cross products if applicable
 cross = []
 if row1 and row2 == 3 and col1 and col2 == 1:
-    cross.append(ASub[1]*BSub[2]-ASub[2]*BSub[1])
-    cross.append(ASub[2]*BSub[0]-ASub[0]*BSub[2])
-    cross.append(ASub[0]*BSub[1]-ASub[1]*BSub[0])
+    cross.append(ASub[1]*BSub[2]-ASub[2]*BSub[1]) # finds the magnitude of i direction
+    cross.append(ASub[2]*BSub[0]-ASub[0]*BSub[2]) # finds the magnitude of j direction
+    cross.append(ASub[0]*BSub[1]-ASub[1]*BSub[0]) # finds the magnitude of k direction
     print("Cross product is ",end='')
-    print(cross)
+    print(cross) # outputs the vector of the corss product
 
