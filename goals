@@ -28,3 +28,4 @@
 28. document how cross products are found (complete)
 29. fix the input statements in vectors.py to allow floats (complete)
 30. expand vectors.py to complex numbers
+31. make a method that can check if the matrix is hermitian
