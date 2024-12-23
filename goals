@@ -22,7 +22,7 @@
 22. write a script for finding determinants, cross products and various other matrix operations (added dot products)
 23. demonstrate proofs in set theory
 24. test to see if dot product finder actually works
-25. document how dot products are found
+25. document how dot products are found (complete)
 26. remove redundant variables in vector calculations (complete)
 27. raise e to the power of a matrix
 28. document how cross products are found (complete)
