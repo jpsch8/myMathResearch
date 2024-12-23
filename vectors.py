@@ -4,7 +4,7 @@ col1 = float(input("how many in column 1"))
 row2 = float(input("how many in row 2"))
 col2 = float(input("how many in column 1"))
 
-if row1 == row2 and col1 == col2:
+if row1 == row2 and col1 == col2: # checks to see if the dimensions are the same
     ASub = []
     print("Matrix A")
     for i in range(0,row1):
@@ -23,7 +23,7 @@ if row1 == row2 and col1 == col2:
     dot = 0
 
     for i in range(0,len(ASub)):
-        dot = dot + (ASub[i]*BSub[i])
+        dot = dot + (ASub[i]*BSub[i]) # sums up the multiples of each element in the matrix given the dimensions are the same
 
 
 
