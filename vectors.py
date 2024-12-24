@@ -1,8 +1,8 @@
 # takes imputs for numbers in the matrix
-row1 = float(input("how many in row 1"))
-col1 = float(input("how many in column 1"))
-row2 = float(input("how many in row 2"))
-col2 = float(input("how many in column 1"))
+row1 = int(input("how many in row 1"))
+col1 = int(input("how many in column 1"))
+row2 = int(input("how many in row 2"))
+col2 = int(input("how many in column 1"))
 
 if row1 == row2 and col1 == col2: # checks to see if the dimensions are the same
     ASub = []
