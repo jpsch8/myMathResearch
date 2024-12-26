@@ -1,3 +1,6 @@
+import cmath
+from cmath import *
+
 # takes imputs for numbers in the matrix
 row1 = int(input("how many in row 1"))
 col1 = int(input("how many in column 1"))
