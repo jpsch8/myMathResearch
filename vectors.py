@@ -13,7 +13,7 @@ if row1 == row2 and col1 == col2: # checks to see if the dimensions are the same
     for i in range(0,row1):
         for j in range(0, col1):
             print(i+1,j+1)
-            something = float(input("_"))
+            something = complex(input("_"))
             ASub.append(something)
 
     BSub = []
@@ -21,7 +21,7 @@ if row1 == row2 and col1 == col2: # checks to see if the dimensions are the same
     for i in range(0,row2):
         for j in range(0, col2):
             print(i+1,j+1)
-            another = float(input("_"))
+            another = complex(input("_"))
             BSub.append(another)
     dot = 0
 
