@@ -1,6 +1,17 @@
 
 def union(A,B):
-    return 0
+    oni = []
+    for i in range(0,len(A)):
+        if A[i] in B:
+            oni.append(A[i])
+    for i in range(0,len(A)):
+        if A[i] not in oni:
+            oni.append(A[i])
+    for i in range(0,len(B)):
+        if B[i] not in oni:
+            oni.append(B[i])
+
+    return oni
 
 def intersect(A,B):
     antiUnion = []
