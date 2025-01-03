@@ -1,17 +1,17 @@
 
-def union(A,B):
-    oni = []
-    for i in range(0,len(A)):
-        if A[i] in B:
+def union(A,B): # this is the function to find the union of a ses
+    oni = [] # this is the set we are going to return
+    for i in range(0,len(A)): # this first loop is to avoid double counting
+        if A[i] in B: # checks for elements in A that are in B
             oni.append(A[i])
     for i in range(0,len(A)):
-        if A[i] not in oni:
+        if A[i] not in oni: # Appends elements in A that have not been counted yet
             oni.append(A[i])
     for i in range(0,len(B)):
-        if B[i] not in oni:
+        if B[i] not in oni: # Appends elements in B that have not been counted yet
             oni.append(B[i])
 
-    return oni
+    return oni # returns the union of A and B (AUB)
 
 def intersect(A,B):
     antiUnion = []
