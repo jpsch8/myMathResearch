@@ -21,10 +21,18 @@ def intersect(A,B):
     return antiUnion # returns the intersection set
 
 
+def difference(A,B):
+    diffRet = A
+    for i in range(0,len(B)):
+        if B[i] in A:
+            diffRet.remove(B[i])
 
+
+    return diffRet
 
 
 A = [1,2,3,4,5]
 B = [2,4,6,8]
 print(intersect(A,B))
 print(union(A,B))
+print(difference(A,B))
