@@ -14,11 +14,11 @@ def union(A,B): # this is the function to find the union of a ses
     return oni # returns the union of A and B (AUB)
 
 def intersect(A,B):
-    antiUnion = [] # sets up the array we are going to return
+    interRet = [] # sets up the array we are going to return
     for i in range(0,len(A)): 
         if A[i] in B: # checks if an element in A is in B
-            antiUnion.append(A[i]) # if an element in A is in B this appends that element to the intersetcion set
-    return antiUnion # returns the intersection set
+            interRet.append(A[i]) # if an element in A is in B this appends that element to the intersetcion set
+    return interRet # returns the intersection set
 
 
 def difference(A,B):
