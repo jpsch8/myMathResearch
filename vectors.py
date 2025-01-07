@@ -9,21 +9,21 @@ row2 = int(input("how many in row 2"))
 col2 = int(input("how many in column 1"))
 
 if row1 == row2 and col1 == col2: # checks to see if the dimensions are the same
-    ASub = []
+    ASub = [] # makes a new matrix to do operations on
     print("Matrix A")
     for i in range(0,row1):
         for j in range(0, col1):
             print(i+1,j+1)
-            something = complex(input("_"))
-            ASub.append(something)
+            something = complex(input("_")) # allows user to imput complex numbers into a matrix
+            ASub.append(something) # adds the input to ASub
 
     BSub = []
     print("Matrix B")
     for i in range(0,row2):
         for j in range(0, col2):
             print(i+1,j+1)
-            another = complex(input("_"))
-            BSub.append(another)
+            another = complex(input("_")) # allows user to add complex numbers into the B matrix
+            BSub.append(another) # appends those complex inputs to the B matrix
     dot = 0
 
     for i in range(0,len(ASub)):
