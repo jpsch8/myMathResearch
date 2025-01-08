@@ -38,6 +38,6 @@
 38. makes methods to find cartesian products and set differences
 39. implement an exponential betting trading algorithm
 40. make a Black-Scholls calculator
-41. implement laplace law of succession
+41. implement laplace law of succession (complete)
 42. fix naming issue in sets.py (complete)
 43. fix bugs in difference function
