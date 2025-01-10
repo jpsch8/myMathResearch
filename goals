@@ -42,3 +42,4 @@
 42. fix naming issue in sets.py (complete)
 43. fix bugs in difference function
 44. test laplace succession (complete)
+45. document laplace succession function
