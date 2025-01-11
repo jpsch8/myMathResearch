@@ -21,7 +21,7 @@ def intersect(A,B):
     return interRet # returns the intersection set
 
 
-def difference(A,B):
+def difference(A,B): # order is important in this function
     diffRet = A
     for i in range(0,len(B)):
         if B[i] in A:
