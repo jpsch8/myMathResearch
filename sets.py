@@ -22,13 +22,13 @@ def intersect(A,B):
 
 
 def difference(A,B): # order is important in this function
-    diffRet = A
-    for i in range(0,len(B)):
-        if B[i] in A:
-            diffRet.remove(B[i])
+    diffRet = A # sets up an array to be returned
+    for i in range(0,len(B)): # iterates through each element in B
+        if B[i] in A: # checks if an element of B is in A
+            diffRet.remove(B[i]) # removes that element
 
 
-    return diffRet
+    return diffRet # outputs the set difference (A-B) in this case it should return [1,3,5]
 
 
 A = [1,2,3,4,5]
