@@ -7,7 +7,11 @@ from math import *
 
 def lapSuc(n,m): # function for laplace succesion, takes in number of wins and losses
     return((n+1)/(n+m+1)) # simulates an extra loss and win and calculates the odds of winning the next trial
-print(lapSuc(2,3)) # prints the results
+
+wins = int(input("wins_"))
+losses = int(input("losses_"))
+
+print(lapSuc(wins,losses)) # prints the results
 
 
 
