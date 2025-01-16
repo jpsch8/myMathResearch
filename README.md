@@ -18,4 +18,5 @@ I am trying to make a programme that lets users specify the dimensions of a vect
 I am implimenting math concepts from my linear algebra class.
 There are some set theory functions that can help with finding unions, intersections, etc.
 I need to add researchers
-new researcher added, Ed Linihan
+new researcher added, Ed Linihan.
+added security policy, not sure what it does.
