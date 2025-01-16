@@ -24,7 +24,7 @@ while True: # runs forever (think as x approaches infinity)
     else: # I think zero is a special case but I could be wrong
         area = area-(step/2)
         print(x,y,area)
-    sleep(1) # this is just hear to see the system in more detail, things get crazy when it's removed
+    sleep(1) # this is just here to see the system in more detail, things get too fast to see when it's removed
 
 
 
