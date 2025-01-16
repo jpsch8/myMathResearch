@@ -17,3 +17,4 @@ possibly something about the Black-Scholes model.
 I am trying to make a programme that lets users specify the dimensions of a vector they want to do calculations on and input elements into that vector (it's really hard).
 I am implimenting math concepts from my linear algebra class.
 There are some set theory functions that can help with finding unions, intersections, etc.
+I need to add researchers
