@@ -2,7 +2,7 @@ import cmath
 from cmath import *
 
 # takes imputs for numbers in the matrix
-# must enter in for of n+mj
+# must enter in for of a+bj
 row1 = int(input("how many in row 1"))
 col1 = int(input("how many in column 1"))
 row2 = int(input("how many in row 2"))
