@@ -15,4 +15,4 @@ sigma = float(input("volatility of the asset")
           
 
 print("Call price is ",end="")
-print(call(10,11,10,10,10,10))
+print(call(N,S,K,r,t,sigma))
