@@ -20,3 +20,4 @@ There are some set theory functions that can help with finding unions, intersect
 I need to add researchers
 new researcher added, Ed Linihan.
 added security policy, not sure what it does.
+The matrix multiplication function is being built on the matrix multiplication branch, (just a reminder)
