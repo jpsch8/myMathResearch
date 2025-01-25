@@ -52,3 +52,27 @@ if row1 and row2 == 3 and col1 and col2 == 1:
     print("Cross product is ",end='')
     print(cross) # outputs the vector of the corss product
 
+
+def matMul(mat1,mat2):
+    result = [[0 for _ in range(len(mat2[0]))] for _ in range(len(mat1))]
+
+
+    for i in range(len(mat1)):
+        for j in range(len(mat2[0])):
+            for k in range(len(mat2)):
+                result[i][j] += mat1[i][k] * mat2[k][j]
+
+
+    
+
+    return result
+
+
+
+mat1 = [[1,2,3],[4,5,6]]
+mat2 = [[7,8],[9,10],[11,12]]
+print(matMul(mat1,mat2))
+
+
+
+
