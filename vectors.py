@@ -53,14 +53,14 @@ if row1 and row2 == 3 and col1 and col2 == 1:
     print(cross) # outputs the vector of the corss product
 
 
-def matMul(mat1,mat2):
-    result = [[0 for _ in range(len(mat2[0]))] for _ in range(len(mat1))]
+def matMul(mat1,mat2): # this is the matrix multiplication function
+    result = [[0 for _ in range(len(mat2[0]))] for _ in range(len(mat1))] # initializes a matrix of zeroes to add numbers to
 
 
     for i in range(len(mat1)):
         for j in range(len(mat2[0])):
             for k in range(len(mat2)):
-                result[i][j] += mat1[i][k] * mat2[k][j]
+                result[i][j] += mat1[i][k] * mat2[k][j] # adds the product of the matrix multiplication to the result
 
 
     
