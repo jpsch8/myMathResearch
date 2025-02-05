@@ -1,4 +1,4 @@
-# Thank you proffesor Swihart
+# Thank you professor Swihart
 # libraries that are used
 import time
 from time import sleep
