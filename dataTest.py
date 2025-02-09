@@ -18,10 +18,10 @@ S = [[1,2],[2,3],[3,2],[4,6],[5,17]]
 print(centre(S))
 
 
-def move(S,p):
-    new_S = []
+def move(S,p): # changes the data to centre around the origin
+    new_S = [] # establishes a new set to recentre the data
 
-    for i in range(0,len(S)):
-        new_S.append([float(S[i][0]-p[0]),float(S[i][1]-p[1])])
+    for i in range(0,len(S)): # iterates through each coordinate in the original data set
+        new_S.append([float(S[i][0]-p[0]),float(S[i][1]-p[1])]) # subtracts the origin direction component from the direction component and adds that to a new set
 
-    return new_S
+    return new_S # returns the new set
