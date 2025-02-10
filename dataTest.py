@@ -25,3 +25,7 @@ def move(S,p): # changes the data to centre around the origin
         new_S.append([float(S[i][0]-p[0]),float(S[i][1]-p[1])]) # subtracts the origin direction component from the direction component and adds that to a new set
 
     return new_S # returns the new set
+
+
+def Rsquared(S,a,b):
+    return 0
