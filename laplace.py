@@ -5,8 +5,8 @@
 import math
 from math import *
 
-def lapSuc(n,m): # function for laplace succesion, takes in number of wins and losses
-    return((n+1)/(n+m+1)) # simulates an extra loss and win and calculates the odds of winning the next trial
+def lapSuc(wins,losses): # function for laplace succesion, takes in number of wins and losses
+    return((wins + 1) / (wins + losses + 1)) # simulates an extra loss and win and calculates the odds of winning the next trial
 
 wins = int(input("wins_"))
 losses = int(input("losses_"))
