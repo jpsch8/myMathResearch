@@ -28,9 +28,15 @@ def move(S,p): # changes the data to centre around the origin
     return new_S # returns the new set
 
 
-def Rsquared(S,a,b): # this is not done yet
-    return 0
-print("ax + b")
+def Rsquared(S,a,b):
+    R2 = 0
+    for i in range (0,len(S)):
+        R2 = R2 + (((a * S[i][0] + b) - S[i][1])) ** 2
 
-a = float(input("a ="))
-b = float(input("b ="))
+
+
+    return R2
+# ax+b
+a = float(input("a = "))
+b = float(input("b = "))
+print("R^2 = " + Rsquared(S,a,b))
