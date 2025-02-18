@@ -28,14 +28,14 @@ def move(S,p): # changes the data to centre around the origin
     return new_S # returns the new set
 
 
-def Rsquared(S,a,b):
-    R2 = 0
-    for i in range (0,len(S)):
-        R2 = R2 + (((a * S[i][0] + b) - S[i][1])) ** 2
+def Rsquared(S,a,b): # this function allows for input that makes a straight line ax+b and finds the R^2 value
+    R2 = 0 # initializes R^2 to be 0
+    for i in range (0,len(S)):# iterates through each data point
+        R2 = R2 + (((a * S[i][0] + b) - S[i][1])) ** 2 # finds distance between expected y coordinate and observed y coordinate and squares it, then adds it to R^2
 
 
 
-    return R2
+    return R2 # returns the final R^2 value, the sum of the square distances between fit line and observed data
 # ax+b
 a = float(input("a = "))
 b = float(input("b = "))
