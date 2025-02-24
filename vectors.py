@@ -73,6 +73,15 @@ mat1 = [[1,2,3],[4,5,6]]
 mat2 = [[7,8],[9,10],[11,12]]
 print(matMul(mat1,mat2))
 
-
+def squareMat(M):
+    n = len(matrix)
+    result = [[0 for _ in range(n)] for _ in range(n)]
+    for i in range(n):
+        for j in range(n):
+            for k in range(n):
+                result[i][j] += matrix[i][k] * matrix[k][j]
+    return result
+testMat = [[1,2,3],[4,5,6],[7,8,9]]
+print(squareMat(testMat))
 
 
