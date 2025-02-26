@@ -73,15 +73,17 @@ mat1 = [[1,2,3],[4,5,6]]
 mat2 = [[7,8],[9,10],[11,12]]
 print(matMul(mat1,mat2))
 
+
+# this function squares a matrix
 def squareMat(M):
-    n = len(matrix)
-    result = [[0 for _ in range(n)] for _ in range(n)]
-    for i in range(n):
-        for j in range(n):
+    n = len(matrix) # makes an integer that is the length of a matrix (amount of rows or columns)
+    result = [[0 for _ in range(n)] for _ in range(n)] # initializes a matrix of zeroes that we can append to
+    for i in range(n): # iterates over rows
+        for j in range(n): # iterates over columns
             for k in range(n):
-                result[i][j] += matrix[i][k] * matrix[k][j]
+                result[i][j] += matrix[i][k] * matrix[k][j] # adds each element to the result matrix
     return result
 testMat = [[1,2,3],[4,5,6],[7,8,9]]
-print(squareMat(testMat))
+print(squareMat(testMat)) # calls the squareMat function to square an inputed matrix
 
 
