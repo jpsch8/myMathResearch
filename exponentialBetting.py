@@ -7,7 +7,7 @@ from math import *
 import random
 money = 100 # sets the inital capital (you need alot of this for it to work in real life)
 k = 0
-bound = int(input("What bound do you want?"))
+
 while money>0: # basically this is a valid strategy while you still have some amount of money
     coin = random.randint(0, bound) # makes a coin, 1 is a win state, else is a lose state 
 
