@@ -23,5 +23,6 @@ added security policy, not sure what it does.
 The matrix multiplication function is being built on the matrix multiplication branch, (just a reminder)
 there needs to be something done with GUIs.
 I should make a martingale betting strategy simulator.
-Also experiment with other types of betting strategies.
+Also experiment with other types of betting strategies. 
+is it possible to automate some physics calculations? 
 
