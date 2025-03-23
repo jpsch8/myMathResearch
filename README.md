@@ -24,5 +24,5 @@ The matrix multiplication function is being built on the matrix multiplication b
 there needs to be something done with GUIs.
 I should make a martingale betting strategy simulator.
 Also experiment with other types of betting strategies. 
-is it possible to automate some physics calculations? 
-
+Is it possible to automate some physics calculations? 
+I also want to do some experiments with lambda calculus but I am not smart enough for that, need to start studyMaxxing. 
