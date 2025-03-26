@@ -86,4 +86,13 @@ def squareMat(M):
 testMat = [[1,2,3],[4,5,6],[7,8,9]]
 print(squareMat(testMat)) # calls the squareMat function to square an inputed matrix
 
+def add(matrix1,matrix2):
+    for i in range(0,len(matrix1[0])):
+        for j in range (0,len(matrix1)):
+            matrix1[i][j] = matrix1[i][j] + matrix2[i][j]
+    return matrix1
+addTest1 = [[1, 2], [3, 4]]
+addTest2 = [[5, 6], [7, 8]]
+print(add(addTest1, addTest2))
+
 
