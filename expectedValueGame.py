@@ -8,6 +8,7 @@ while True:
         money -= 7
     elif(numHeads == 1 or numHeads == 0):
         money += 2
+    money += 0.75
     print(money)
     sleep(1)
 
