@@ -17,11 +17,6 @@ def collatz(n):
             print(n)
     return True
 
-
-
-
-
-
 while True:
     # prints n and the steps to get there
     print(n,collatz(n))
