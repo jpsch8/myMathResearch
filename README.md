@@ -26,4 +26,5 @@ I should make a martingale betting strategy simulator.
 Also experiment with other types of betting strategies. 
 Is it possible to automate some physics calculations? 
 I also want to do some experiments with lambda calculus but I am not smart enough for that, need to start studyMaxxing. 
-I actually sited this repository in an English project, lol.
+I actually sited this repository in an English project, lol. 
+How long will it take to learn enough to do computational PDE? 
