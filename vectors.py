@@ -95,4 +95,14 @@ addTest1 = [[1, 2], [3, 4]]
 addTest2 = [[5, 6], [7, 8]]
 print(add(addTest1, addTest2))
 
+def proj(u,v):
+    dot = 0
+    mag = 0
+    for i in range(0,len(u)):
+        dot = dot + u[i] + v[i]
+    for i in range(0,len(u)):
+        mag = mag + u[i]
+    for i in range(0,len(v)):
+        print(v[i] * (dot / (mag ** 2)) , end=', ')
+
 
