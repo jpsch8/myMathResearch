@@ -77,5 +77,5 @@
 78. experiment with expected value problems
 79. verify 2 and 3 dimensional vectors for orthogonality and orthonormality 
 80. is it possible to make a point based system to predict the price of some assets 
-81. make a function that projects one vector on to another 
+81. make a function that projects one vector on to another (complete)
 82. fix Black–Scholes model by learning CDF of normal distribution 
