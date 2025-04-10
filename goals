@@ -79,3 +79,4 @@
 80. is it possible to make a point based system to predict the price of some assets 
 81. make a function that projects one vector on to another (complete)
 82. fix Black–Scholes model by learning CDF of normal distribution 
+83. debug projection function 
