@@ -81,3 +81,4 @@
 82. fix Black–Scholes model by learning CDF of normal distribution 
 83. debug projection function 
 84. find standard deviation of a dataset
+85. implement bayes theorem 
