@@ -24,10 +24,3 @@ while True:
     n = n+1
     # allows for delay (just to see what is going on)
     sleep(1)
-
-
-
-
-
-
-
