@@ -30,3 +30,4 @@ I actually sited this repository in an English project, lol.
 How long will it take to learn enough to do computational PDE? 
 Is there a way to show that some finite fields do not have multiplicative inverses? 
 I have been reading about abstract algebra, it is very interesting, there are lots of computational problems to work through. 
+I need to learn some numerical methods. 
