@@ -86,3 +86,4 @@
 87. experiment with numpy
 88. make a cayley table for finite integer groups 
 88. use recursion to find fibonacci numbers 
+89. verify that a given set is a group, ring or field
