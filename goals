@@ -92,3 +92,4 @@
 92. write out Euler's totient function
 93. make a function that can find the solution to certain diophantine equations (complete)
 94. document diophantine.py (complete)
+95. add an edge case for finding doiphantine equations with no solutions (probably just for linear equations)
