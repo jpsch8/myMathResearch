@@ -31,3 +31,4 @@ How long will it take to learn enough to do computational PDE?
 Is there a way to show that some finite fields do not have multiplicative inverses? 
 I have been reading about abstract algebra, it is very interesting, there are lots of computational problems to work through. 
 I need to learn some numerical methods. 
+Diophantine equations are the topic of some cool math research problems. Being able to solve these with a computer could definitely be of some value. Also this excersize would push me to try and optimize my code. 
