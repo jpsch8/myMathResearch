@@ -8,7 +8,17 @@ def solve(x,y):
 
 
     return 0
+def linear(a,b,c):
+    if((c / math.gcd(a,b)) % 1 != 0):
+        print("no solutions")
+    else:
+        for i in range(-1000, 1000):
+            for j in range(-1000, 1000):
+                if(a*i + b*j == c):
+                    print("(" + str(i) + ", " + str(j) + ")")
+    return 0
 # this algorithm is terrible and needs adjustments
 for i  in range(-999,999): # checks every x value on [-999,999]
     for j in range(-999, 999): # checks every y value on [-999,999]
         solve(i,j)
+linear(1,2,3)
