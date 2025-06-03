@@ -8,14 +8,15 @@ def solve(x,y):
 
 
     return 0
-def linear(a,b,c):
-    if((c / math.gcd(a,b)) % 1 != 0):
+def linear(a,b,c): # passes in 3 number a,b,c and forms the equation ax+by=c
+    if((c / math.gcd(a,b)) % 1 != 0): # checks if the gcd of a and b divides c, if it does then there is no soltion
         print("no solutions")
-    else:
+    else: # checks every possible solution on x,y[-1000,1000]
         for i in range(-1000, 1000):
             for j in range(-1000, 1000):
                 if(a*i + b*j == c):
                     print("(" + str(i) + ", " + str(j) + ")")
+        # this algorithm needs to change, it is way too slow
     return 0
 # this algorithm is terrible and needs adjustments
 for i  in range(-999,999): # checks every x value on [-999,999]
