@@ -94,4 +94,4 @@
 94. document diophantine.py (complete)
 95. add an edge case for finding doiphantine equations with no solutions (probably just for linear equations) (complete)
 96. make the diophantine solution finder in go so it can run faster 
-97. document the solution for finding edge cases of linear diophantine equations 
+97. document the solution for finding edge cases of linear diophantine equations (complete)
