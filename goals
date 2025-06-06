@@ -89,7 +89,7 @@
 89. verify that a given set is a group, ring or field
 90. do the square root of a random variable experiment (complete)
 91. document experiment from goal #90 (complete) 
-92. write out Euler's totient function
+92. write out Euler's totient function (complete)
 93. make a function that can find the solution to certain diophantine equations (complete)
 94. document diophantine.py (complete)
 95. add an edge case for finding doiphantine equations with no solutions (probably just for linear equations) (complete)
