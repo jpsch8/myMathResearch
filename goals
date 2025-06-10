@@ -96,3 +96,4 @@
 96. make the diophantine solution finder in go so it can run faster 
 97. document the solution for finding edge cases of linear diophantine equations (complete)
 98. document the euler totient function (complete)
+99. calculate the norm of vector in hilbert space
