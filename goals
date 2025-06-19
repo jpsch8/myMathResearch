@@ -100,3 +100,4 @@
 100. show the convergence of a sequence to a specific epsilon value
 101. find the solutions to polynomial equations over finite integer fields 
 102. write an algorithm that can fit a hyperplane to data
+103. use a monte carlo simulation to approximate pi 
