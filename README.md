@@ -34,3 +34,4 @@ I need to learn some numerical methods.
 Diophantine equations are the topic of some cool math research problems. Being able to solve these with a computer could definitely be of some value. Also this excersize would push me to try and optimize my code. 
 Would it be possible to play around with matrices and high dimensional math to do game theory? 
 Is there a way to use any of this in the design and back testing of trading algorithms? 
+I started studying asymptotics, it will be interesting to see where it takes me. 
