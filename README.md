@@ -35,3 +35,4 @@ Diophantine equations are the topic of some cool math research problems. Being a
 Would it be possible to play around with matrices and high dimensional math to do game theory? 
 Is there a way to use any of this in the design and back testing of trading algorithms? 
 I started studying asymptotics, it will be interesting to see where it takes me. 
+I finished 18.s096 from MIT. It covered math topics in finance, it was ok. 
