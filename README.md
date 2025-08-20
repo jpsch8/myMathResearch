@@ -36,3 +36,4 @@ Would it be possible to play around with matrices and high dimensional math to d
 Is there a way to use any of this in the design and back testing of trading algorithms? 
 I started studying asymptotics, it will be interesting to see where it takes me. 
 I finished 18.s096 from MIT. It covered math topics in finance, it was ok. 
+Is there a way to show the volatility of past prices in the markets and show definitively that there is a positive kurtosis? 
